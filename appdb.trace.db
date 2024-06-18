@@ -1,0 +1,60 @@
+2024-06-17 22:58:07.550142-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ITEM \000d\000a[*]item_id int primary key,\000d\000asku_id var(255),\000d\000aitem_name var(255),\000d\000aitem_Dec var(255),\000d\000aitem_price int\000d\000a "; SQL statement:
+CREATE TABLE ITEM 
+item_id int primary key,
+sku_id var(255),
+item_name var(255),
+item_Dec var(255),
+item_price int
+  [42000-224]
+2024-06-17 22:58:33.655320-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ITEM \000d\000a[*]item_id int primary key,\000d\000asku_id var(255),\000d\000aitem_name var(255),\000d\000aitem_Dec var(255),\000d\000aitem_price int\000d\000a "; SQL statement:
+CREATE TABLE ITEM 
+item_id int primary key,
+sku_id var(255),
+item_name var(255),
+item_Dec var(255),
+item_price int
+  [42000-224]
+2024-06-17 22:58:43.803392-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ITEM \000d\000a[*]item_id int primary key,\000d\000asku_id var(255),\000d\000aitem_name var(255),\000d\000aitem_Dec var(255),\000d\000aitem_price int\000d\000a "; SQL statement:
+CREATE TABLE ITEM 
+item_id int primary key,
+sku_id var(255),
+item_name var(255),
+item_Dec var(255),
+item_price int
+  [42000-224]
+2024-06-17 22:59:44.892862-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ITEM \000d\000a[*]item_id int primary key,\000d\000asku_id varchar(255),\000d\000aitem_name varchar(255),\000d\000aitem_Dec varchar(255),\000d\000aitem_price int\000d\000a "; SQL statement:
+CREATE TABLE ITEM 
+item_id int primary key,
+sku_id varchar(255),
+item_name varchar(255),
+item_Dec varchar(255),
+item_price int
+  [42000-224]
+2024-06-17 23:00:38.755300-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ITEM \000d\000a[*]item_id int primary key,\000d\000asku_id varchar(255),\000d\000aitem_name varchar(255),\000d\000aitem_Dec varchar(255),\000d\000aitem_price int\000d\000a "; SQL statement:
+CREATE TABLE ITEM 
+item_id int primary key,
+sku_id varchar(255),
+item_name varchar(255),
+item_Dec varchar(255),
+item_price int
+  [42000-224]
+2024-06-17 23:01:30.488667-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ITEM  \000d\000a[*]item_id INT PRIMARY KEY,\000d\000asku_id VARCHAR(255),\000d\000aitem_name VARCHAR(255),\000d\000aitem_Dec VARCHAR(255),\000d\000aitem_price INT\000d\000a "; SQL statement:
+CREATE TABLE ITEM  
+item_id INT PRIMARY KEY,
+sku_id VARCHAR(255),
+item_name VARCHAR(255),
+item_Dec VARCHAR(255),
+item_price INT
+  [42000-224]
+2024-06-17 23:17:02.486391-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert [*]values into ITEM (1, 'sku_1', 'TV', '83 inch Samsung OLED', 1099)"; expected "INTO"; SQL statement:
+insert values into ITEM (1, 'sku_1', 'TV', '83 inch Samsung OLED', 1099) [42001-224]
+2024-06-17 23:17:39.968576-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT [*]VALUES INTO ITEM (1, 'sku_1', 'TV', '83 inch Samsung OLED', 1099)"; expected "INTO"; SQL statement:
+INSERT VALUES INTO ITEM (1, 'sku_1', 'TV', '83 inch Samsung OLED', 1099) [42001-224]
